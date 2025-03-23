@@ -354,3 +354,47 @@ img{
 .section-three-p{
     margin-bottom: 8px;
 }
+.footer-social{
+    margin-right: 80px;
+}
+.modal-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 47, 66, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    background: #fcfcfc;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+.modal-btn{
+    border-radius: 100%;
+    background-color: #e7e9fc;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-icons{
+    fill: #2e2f42;
+}
+.input-footer{
+    background-color: #2e2f42;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+}
