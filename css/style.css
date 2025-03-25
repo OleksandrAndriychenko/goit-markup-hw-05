@@ -528,3 +528,13 @@ img{
 .modal-textarea:focus{
     border-color: #4D5AE5;
 }
+.modal-div-check{
+    margin-bottom: 24px;
+}
+.lb-check{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
