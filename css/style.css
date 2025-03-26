@@ -369,6 +369,12 @@ img{
     justify-content: center;
     align-items: center;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    pointer-events: none;
+}
+.modal-overlay.is-open{
+    opacity: 1;
+    pointer-events: auto;
 }
 .modal{
     position: absolute;
@@ -537,6 +543,7 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    cursor: pointer;
 }
 .lb-span{
     width: 16px;
@@ -549,10 +556,10 @@ img{
     justify-content: center;
     fill: transparent;
 }
-.modal-check:checked + .lb-span-icon{
+.modal-check:checked + .lb-check > span{
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #F4F4FD;;
 }
 .modal-link{
     color: #4d5ae5;
