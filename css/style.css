@@ -555,6 +555,7 @@ img{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 .modal-check:checked + .lb-check > span{
     background-color: #404bbf;
